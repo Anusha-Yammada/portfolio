@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { PERSONAL_INFO } from '../data/portfolioData';
-import { Mail, Phone, MapPin, Send, CheckCircle2 } from 'lucide-react';
+import { Mail, MapPin, Send, CheckCircle2 } from 'lucide-react';
 import { GithubIcon } from './GithubIcon';
 
 export const ContactSection: React.FC = () => {
@@ -74,36 +74,6 @@ export const ContactSection: React.FC = () => {
                 <div>
                   <div style={{ fontSize: '0.8rem', color: 'var(--text-dim)' }}>EMAIL ADDRESS</div>
                   <div style={{ fontSize: '0.95rem', color: '#fff', fontWeight: 600 }}>{PERSONAL_INFO.email}</div>
-                </div>
-              </a>
-
-              <a
-                href={`tel:${PERSONAL_INFO.phone.replace(/[^0-9]/g, '')}`}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '1rem',
-                  color: 'inherit',
-                  textDecoration: 'none',
-                }}
-              >
-                <div
-                  style={{
-                    width: '42px',
-                    height: '42px',
-                    borderRadius: '10px',
-                    background: 'rgba(6, 182, 212, 0.15)',
-                    border: '1px solid rgba(6, 182, 212, 0.3)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <Phone size={20} color="#06b6d4" />
-                </div>
-                <div>
-                  <div style={{ fontSize: '0.8rem', color: 'var(--text-dim)' }}>PHONE NUMBER</div>
-                  <div style={{ fontSize: '0.95rem', color: '#fff', fontWeight: 600 }}>{PERSONAL_INFO.phone}</div>
                 </div>
               </a>
 

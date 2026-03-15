@@ -253,9 +253,6 @@ export const HeroSection: React.FC = () => {
             <div>
               <strong style={{ color: 'var(--text-muted)' }}>Email:</strong> {PERSONAL_INFO.email}
             </div>
-            <div>
-              <strong style={{ color: 'var(--text-muted)' }}>Phone:</strong> {PERSONAL_INFO.phone}
-            </div>
           </div>
         </div>
 

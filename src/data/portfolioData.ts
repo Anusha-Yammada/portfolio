@@ -40,7 +40,6 @@ export const PERSONAL_INFO = {
   subtitle: "Specializing in Agentic AI Systems, RAG Pipelines & Scalable Cloud Architecture",
   location: "Atlanta, GA",
   email: "anushayammadav@gmail.com",
-  phone: "(703)-722-1447",
   github: "https://github.com/Anusha-Yammada",
   summary: "Senior AI/ML Engineer specializing in architecting and deploying production-grade Generative AI applications, autonomous multi-agent systems, and cloud-native Python platforms across healthcare, enterprise automation, and predictive analytics domains.",
   education: {
@@ -307,7 +306,7 @@ export const AI_BOT_FAQS: FaqItem[] = [
   },
   {
     question: "How can I get in touch with Anusha?",
-    answer: "You can reach out directly via email at anushayammadav@gmail.com, call (703)-722-1447, or visit her GitHub profile at https://github.com/Anusha-Yammada.",
+    answer: "You can reach out directly via email at anushayammadav@gmail.com or visit her GitHub profile at https://github.com/Anusha-Yammada.",
     category: "Contact"
   }
 ];
